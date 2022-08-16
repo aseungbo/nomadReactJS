@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <!-- Use this lines just exercise :) -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        const root = document.getElementById("root");
+        let cnt = 42;
+        function cntUp() {
+            cnt += 1;
+            render();
+        }
+        function render() {
+            ReactDOM.render(<Container />, root);
+        }
+        const Container = () => <div>
+            <h3> Total Click: {cnt} </h3>
+            <button onClick={cntUp}> Click me </button>
+            </div>;
+        render();
+    </script>
+</html>
