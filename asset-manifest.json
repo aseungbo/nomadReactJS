@@ -1,10 +1,11 @@
 {
-  "files": {
-    "main.js": "/react-for-beginners/static/js/main.ae856d99.js",
-    "index.html": "/react-for-beginners/index.html",
-    "main.ae856d99.js.map": "/react-for-beginners/static/js/main.ae856d99.js.map"
-  },
-  "entrypoints": [
-    "static/js/main.ae856d99.js"
-  ]
+  "main.js": "/react-for-beginners/static/js/main.73c42777.chunk.js",
+  "main.js.map": "/react-for-beginners/static/js/main.73c42777.chunk.js.map",
+  "runtime~main.js": "/react-for-beginners/static/js/runtime~main.08ccc910.js",
+  "runtime~main.js.map": "/react-for-beginners/static/js/runtime~main.08ccc910.js.map",
+  "static/js/2.4f29cc92.chunk.js": "/react-for-beginners/static/js/2.4f29cc92.chunk.js",
+  "static/js/2.4f29cc92.chunk.js.map": "/react-for-beginners/static/js/2.4f29cc92.chunk.js.map",
+  "index.html": "/react-for-beginners/index.html",
+  "precache-manifest.b4b93a7f9b51c3c6c079e55b3f0e233b.js": "/react-for-beginners/precache-manifest.b4b93a7f9b51c3c6c079e55b3f0e233b.js",
+  "service-worker.js": "/react-for-beginners/service-worker.js"
 }
