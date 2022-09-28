@@ -3,8 +3,7 @@ import Home from "./routes/Home";
 import Detail from "./routes/Detail";
 import ReactGA from "react-ga";
 // import { createBrowserHistory } from "history";
-
-const config = process.env.GOOGLE_ANALYTICS_TRACKING_ID;
+const config = process.env.REACT_APP_GA_TRACKING_ID;
 ReactGA.initialize(config);
 
 // const history = createBrowserHistory();
@@ -15,8 +14,6 @@ ReactGA.initialize(config);
 // });
 
 function App() {
-  console.log("App called");
-  // ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <BrowserRouter>
       <Routes>

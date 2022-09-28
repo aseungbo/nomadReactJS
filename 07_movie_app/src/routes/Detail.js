@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ReactGA from "react-ga";
 
 function Detail() {
+  console.log(window.location.pathname + window.location.search);
+  ReactGA.pageview(window.location.pathname + window.location.search);
   const { id } = useParams();
   const getDetail = async () => {
     const json = await (
