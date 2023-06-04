@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <div>
-      <h1> Movies </h1>
+      <h1> Movies Hotjar Test </h1>
       <hr />
       {loading ? (
         <strong>Loading...</strong>
